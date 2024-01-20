@@ -12,6 +12,7 @@ The following analyses were carried out using open-source packages:
 4. Allen Human Brain Atlas (AHBA) datasets: Regional microarray expression data from Allen Human Brain Atlas were preprocessed following the AHBA processing pipeline (https://github.com/BMHLab/AHBAprocessing) [4]. 
 5. Gene Ontology Enrichment Analysis: Gene ontology enrichment analysis was performed using online tools including GOrilla (http://cbl-gorilla.cs.technion.ac.il/) [5] and REViGO (http://revigo.irb.hr).
 6. Visualization: Brain map visualization was implemented using BrainNet Viewer Matlab toolbox (http://www.nitrc.org/projects/bnv) [6].
+   
 The code folder contains all the code used to run the analyses and generate the figures. This folder contains the following files:
 1. s1_multilayer_community：Perform multilayer modular detection and calculate the regional multilayer modular variability (a_multilayer_mod_var.m). Calculate the multilayer modular variability values for four hierarchical systems (b_hiesys_MV_spin.m). Plot the correlation between multilayer modular variability and cortical gradient (scatter_MVcorgrad.R) and cortical expansion (scatter_MVexpans.R).
 2. s2_reliability_analysis: Analyzing the test-retest reliability of multilayer modular variability (a_reliability_analysis.m). Calculate the test-retest reliability of four hierarchical systems (b_hiesys_ICC_spin.m). Plot the intra-individual and inter-individual similarity of multilayer modular variability (plot_MV_reliability.R).
