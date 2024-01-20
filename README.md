@@ -28,7 +28,7 @@ Custom codes and toolboxes were tested on a 64-bit Windows 10 PC. Data analysis 
 ## Data:
 The following data were obtained from publicly available datasets:
 1. The HCP dataset, including structural MRI, functional MRI, and diffusion-weighted MRI, is available in the HCP ConnectomeDB (https://db.humanconnectome.org/). 
-2. The neurocognitive flexibility data [7] is publicly available at https://surfer.nmr.mgh.harvard.edu/fswiki/BrainmapOntology_Yeo2015. 
+2. The neurocognitive flexibility data [8] is publicly available at https://surfer.nmr.mgh.harvard.edu/fswiki/BrainmapOntology_Yeo2015. 
 3. The neurotransmitter receptor and transport density distribution data [9] are publicly available at https://github.com/netneurolab/hansen_receptors. 
 4. The AHBA dataset is publicly available at https://human.brain-map.org/static/download.
 
