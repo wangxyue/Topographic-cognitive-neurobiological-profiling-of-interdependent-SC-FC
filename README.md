@@ -6,12 +6,12 @@ Contents include standalone software, source code, and demo data. All data and c
 All the scripts (*.m files in the code folder) and the toolboxes can be executed by adding the appropriate environment paths according to the corresponding code language. Use the "add path" function for Matlab and the "install.packages()" function for R. These procedures are not time-consuming.
 ## Code:
 The following analyses were carried out using open-source packages:
-1. Multilayer modular detection: The multilayer modular detection algorithm was obtained from an open Matlab code package GenLouvain (https://github.com/GenLouvain/GenLouvain) [1, 2].
-2. Heritability analysis: The heritability analysis of multilayer modular variability was performed using the Accelerated Permutation Inference for the ACE model (APACE) method (https://github.com/nicholst/APACE) [3].
-3. PLS analysis: The cognition-association analysis of multilayer modular variability was performed using an open Matlab toolbox myPLS (https://github.com/danizoeller/myPLS).
-4. Allen Human Brain Atlas (AHBA) datasets: Regional microarray expression data from Allen Human Brain Atlas were preprocessed following the AHBA processing pipeline (https://github.com/BMHLab/AHBAprocessing) [4]. 
-5. Gene Ontology Enrichment Analysis: Gene ontology enrichment analysis was performed using online tools including GOrilla (http://cbl-gorilla.cs.technion.ac.il/) [5] and REViGO (http://revigo.irb.hr).
-6. Visualization: Brain map visualization was implemented using BrainNet Viewer Matlab toolbox (http://www.nitrc.org/projects/bnv) [6].
+1. ***Multilayer modular detection:*** The multilayer modular detection algorithm was obtained from an open Matlab code package GenLouvain (https://github.com/GenLouvain/GenLouvain) [1, 2].
+2. ***Heritability analysis:*** The heritability analysis of multilayer modular variability was performed using the Accelerated Permutation Inference for the ACE model (APACE) method (https://github.com/nicholst/APACE) [3].
+3. ***PLS analysis:*** The cognition-association analysis of multilayer modular variability was performed using an open Matlab toolbox myPLS (https://github.com/danizoeller/myPLS).
+4. ***Allen Human Brain Atlas (AHBA) datasets:*** Regional microarray expression data from Allen Human Brain Atlas were preprocessed following the AHBA processing pipeline (https://github.com/BMHLab/AHBAprocessing) [4]. 
+5. ***Gene Ontology Enrichment Analysis:*** Gene ontology enrichment analysis was performed using online tools including GOrilla (http://cbl-gorilla.cs.technion.ac.il/) [5] and REViGO (http://revigo.irb.hr).
+6. ***Visualization:*** Brain map visualization was implemented using BrainNet Viewer Matlab toolbox (http://www.nitrc.org/projects/bnv) [6].
    
 The code folder contains all the code used to run the analyses and generate the figures. This folder contains the following files:
 1. s1_multilayer_community：Perform multilayer modular detection and calculate the regional multilayer modular variability (a_multilayer_mod_var.m). Calculate the multilayer modular variability values for four hierarchical systems (b_hiesys_MV_spin.m). Plot the correlation between multilayer modular variability and cortical gradient (scatter_MVcorgrad.R) and cortical expansion (scatter_MVexpans.R).
