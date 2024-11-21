@@ -1,13 +1,13 @@
-Topographic-cognitive-neurobiological-profiling-of-interdependent-SC-FC
+# Topographic-cognitive-neurobiological-profiling-of-interdependent-SC-FC
 This repository provides data, core code and relevant toolboxes for data analysis in the article “Topographic, cognitive, and neurobiological profiling of the interdependent structural and functional connectome in the human brain”.
 
-Overview:
+# Overview:
 Contents include standalone software, source code, and demo data. All data and code necessary to reproduce our results have been made publicly available at https://github.com/wangxyue/Topographic-cognitive-neurobiological-profiling-of-interdependent-SC-FC.
 
-Installation guide:
+# Installation guide:
 All the scripts (*.m files in the code folder) and the toolboxes can be executed by adding the appropriate environment paths according to the corresponding code language. Use the "add path" function for Matlab and the "install.packages()" function for R. These procedures are not time-consuming.
 
-Code:
+# Code:
 The following analyses were carried out using open-source packages:
 1. Multilayer modular detection: The multilayer modular detection algorithm was obtained from an open Matlab code package GenLouvain (https://github.com/GenLouvain/GenLouvain) [1, 2].
 2. Heritability analysis: The heritability analysis of multilayer modular variability was performed using the Accelerated Permutation Inference for the ACE model (APACE) method (https://github.com/nicholst/APACE) [3].
@@ -28,7 +28,7 @@ The code folder contains all the code used to run the analyses and generate the 
 
 Custom codes and toolboxes were tested on a 64-bit Windows 10 PC. Data analysis and visualization were performed using Matlab 2019b and R 4.1.3. We thank the authors and developers for providing these data analysis tools.
 
-Data:
+# Data:
 The following data were obtained from publicly available datasets:
 1. The HCP dataset, including structural MRI, functional MRI, and diffusion-weighted MRI, is available in the HCP ConnectomeDB (https://db.humanconnectome.org/). 
 2. The neurocognitive flexibility data [8] is publicly available at https://surfer.nmr.mgh.harvard.edu/fswiki/BrainmapOntology_Yeo2015. 
@@ -45,7 +45,7 @@ The data folder contains all the data used to run the analyses. This folder cont
 7. s7_validation: it associated with the sensitivity and robustness analysis. It includes the group-level multilayer modular variability (cross_sub917_MV.mat, FC005_cross_sub_MV.mat, FC02_cross_sub_MV.mat); the sub37_testMV.mat, sub37_retestMV.mat and ICC.mat for reliability analysis; the sub914_MV.mat for heritability analysis; the sub917hetepara_MV.mat and sub917priuni_MV.mat for PLS cognitive-association analysis; the PLS_geneWeights_ascend.csv and PLS_geneWeights_descend.csv for enrichment analysis;
 
 
-References:
+# References:
 1. Mucha, P.J., Richardson, T., Macon, K., Porter, M.A. & Onnela, J.P. Community structure in time-dependent, multiscale, and multiplex networks. Science (New York, N.Y.) 328, 876-878 (2010).
 2. Jutla, I., Jeub, L. & Mucha, P. A generalized Louvain method for community detection implemented in MATLAB (computer program). Available at netwiki. amath. unc. edu. Accessed September 1, 2014 (2011).
 3. Chen, X., et al. Accelerated estimation and permutation inference for ACE modeling. Human brain mapping 40, 3488-3507 (2019).
